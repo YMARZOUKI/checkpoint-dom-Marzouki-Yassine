@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping card</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="indeex.CSS" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">APPLE</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      
+      
+      <section class="shopping-card">
+        <div class="total-price-container">
+          <span1>Total Price :</span1>
+          <span class="total-price"> 0 </span>
+          <span>$</span>
+        </div>
+        <div class="cards-container">
+          <!-- Product 1 -->
+          <div class="card" style="width: 30rem">
+            <img
+              src="https://www.numerama.com/wp-content/uploads/2020/10/iphone-12-1-1.jpg"
+              class="card-img-top"
+              alt="baskets"
+            />
+            <div class="card-body">
+              <h5 class="card-title">iphone 12 pro</h5>
+              
+              <span class="unit-price">1159</span>
+              <span> $</span>
+            </div>
+            <div class="card-body">
+              <i class="fas fa-plus-circle plus-btn"></i>
+              <span class="qute"> 0 </span>
+              <i class="fas fa-minus-circle minus-btn"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="card" style="width: 30rem">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="socks" />
+            <div class="card-body">
+              <h5 class="card-title">AIRPODS</h5>
+              
+              <span class="unit-price">150</span>
+              <span> $</span>
+            </div>
+            <div class="card-body">
+              <i class="fas fa-plus-circle plus-btn"></i>
+              <span class="qute"> 0 </span>
+              <i class="fas fa-minus-circle minus-btn"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+              </li>
+            </ul>
+          </div>
+      </section>
+    </main>
+    <footer>
+    <script src="dom.js"></script>
+    </footer>
+  </body>
+</html>

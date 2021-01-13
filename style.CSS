@@ -1,0 +1,81 @@
+.shopping-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 2%;
+    margin: 50px 10%;
+  }
+  
+  .total-price-container {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .total-price-container span {
+    font-size: 50px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2%;
+    : ;
+  }
+  
+  .card {
+    margin: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+  }
+  
+  .product-image {
+    width: 100%;
+  }
+  
+  .unit-price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .plus-btn,
+  .minus-btn {
+    font-size: 30px;
+    margin: 15px;
+     color: rgb(63, 63, 63); 
+  }
+  
+  .plus-btn:hover {
+    color: rgb(53, 151, 86);
+  }
+  
+  .minus-btn:hover {
+    color: rgb(199, 16, 16);
+  }
+  
+  .qute {
+    font-size: 25px;
+  }
+  
+  .list-group-item i {
+    margin: 10px;
+  }
+  
+  .fa-trash-alt {
+    font-size: 30px;
+    color: #dd6b5c;
+  }
+  
+  .fa-heart {
+    font-size: 30px; 
+  }
+  
+     
+  
+  
